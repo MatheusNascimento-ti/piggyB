@@ -1,0 +1,25 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <title>sacar</title>
+</head>
+<body>
+    <header class="headerH">
+        <h1><p class="button"><a href="./index.html">Voltar <img src="../images/homeP.png" alt="home" id="home"></a></p></h1>
+    </header>
+    <div class="container">
+        <form action="" class="form" onsubmit="Form.withDraw(event)">
+            <label for="saque">Digite o valor do seu saque</label><br>
+            <input type="number" id="amount" name="saque" step="0.01" placeholder="EX: 15.50"><br>
+            <small class="help"> use o ponto(.) no lugar da virgula(,)</small><br>
+            <label for="data">Digite a data do seu saque</label><br>
+            <input type="date" name="data" id="date"><br>
+            <button class="button">sacar</button>
+        </form>
+    </div>
+    <script  src="../scripts/scripts.js"></script>
+</body>
+</html>

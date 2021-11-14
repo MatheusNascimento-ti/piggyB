@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* estiliza o header*/
+
+.header {
+    color: aliceblue;
+    background-color: #d4a7ba;
+}
+.header #welcome{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 35px;
+}
+
+/* estiliza o body*/
+body{
+    text-align: center;
+    position: absolute;
+    width:100%;
+    background-color: whitesmoke;
+}
+/* estiliza o container e seus componentes */
+body .container{
+    margin-top: 50px;
+    padding: 25px;
+    display: inline-block;
+    position: relative;
+    background-color: #fff;
+    color: black;
+    border-radius: 15px;
+}
+#content .button{
+    width: 450px;
+    margin-top: 15px;
+    background-color: #db91a0;
+    border-radius: 25px;
+}
+.button a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+    text-decoration: none;
+}
+body .button a img{
+    margin-left: 15px;
+    width: 45px;
+    height: 45px;
+}
+body .container .button a:hover{
+    border-radius: 25px;
+    background-color: #c07c89;
+    color: rgb(255, 231, 231);
+}
+body .container #limpa{
+    background-color: #db91a0;
+    color: white;
+    border-radius: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+body .container #limpa:hover{
+    border-radius: 10px;
+    background-color: #c07c89;
+    color: rgb(255, 231, 231);
+}
+/* estiliza o botão home*/
+.headerH {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-color: #d4a7ba;
+    width: 100%;
+    text-align: left;
+    float: left;
+    color: white;
+}
+.button #home{
+    margin-left: 5px;
+    width: 55px;
+    height: 55px;
+}
+/* estiliza o formulario padrão*/
+.form{
+    font-size: 25px;
+    text-decoration: none;
+}
+.form input{
+    margin-top: 5px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.form input:hover{
+    border: 1px solid #db91a0;
+    border-radius: 5px;
+}
+.form .button{
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    width: 350px;
+    color: white;
+    background-color: #db91a0;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+body .container .button:hover{
+    background-color: #c07c89;
+    color: rgb(255, 231, 231);
+}
+.form .help{
+    opacity: 0.4;
+}
+/* estiliza o valor no porquinho*/
+#piggy{
+    margin: 5px 10px;
+    background-color: rgb(105, 204, 6);
+    color: white;
+    font-size: 30px;
+    border-radius: 2px;
+}
+/* estiliza a tabela do extrato */
+#data-table{
+    margin-top: 10px;
+    border-radius: 15px;
+    width: 100%;
+    border-spacing: 0;
+}
+table .Ttitle{
+    background-color: whitesmoke;
+    font-weight: normal;
+    padding: 1rem 2rem;
+    color: #969cb3;
+}
+table tbody tr{
+    background-color: whitesmoke;
+    font-weight: normal;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+.saque{
+    color: red;
+}
+.deposito{
+    color: rgb(105, 204, 6);;
+}
+

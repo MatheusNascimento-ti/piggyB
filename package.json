@@ -1,0 +1,16 @@
+{
+  "name": "piggyb",
+  "version": "1.0.0",
+  "description": "A little piggy bank for personal use",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "matheus",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "electron-packager": "^15.4.0",
+    "electron": "^15.3.0"
+  }
+}
