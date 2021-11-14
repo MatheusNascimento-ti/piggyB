@@ -1,4 +1,4 @@
 # piggyB
-My first project.
-Im a brazilian student, that was my first project using html css and js.
-I also used electron to turn the project into a desktop application so people can easily use piggyB on their computers.
+Meu primeiro projeto.
+Sou um estudante brasileiro, esse foi meu primeiro projeto usando html css e js.
+Eu também usei o electron para transformar o projeto em um aplicativo de desktop para que as pessoas possam usar o piggyB facilmente em seus computadores.
